@@ -1,0 +1,17 @@
+# Backend
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# Static Files
+static/
+
+# Flask
+*.pyc
+*.pyo
+*.pyd
