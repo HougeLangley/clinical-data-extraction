@@ -11,7 +11,8 @@ def normalize_clinical_data(raw_data):
     
     # 设置请求头，如果需要的话
     headers = {
-        "Content-Type": "application/json"
+        "Content-Type": "application/json",
+        "Authorization": "Bearer your_api_key_here"  # 如果需要认证
     }
     
     # 发送 POST 请求到 ollama API
