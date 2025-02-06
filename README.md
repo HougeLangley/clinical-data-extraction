@@ -36,6 +36,26 @@
     pip install -r requirements.txt
     ```
 
+## 使用方法
+1. 启动Flask应用：
+    ```bash
+    flask run
+    ```
+
+2. 打开浏览器并访问：
+    ```
+    http://localhost:5000
+    ```
+
+3. 使用系统上传和处理医疗记录，提取关键信息。
+
+## 测试方法
+1. 运行测试用例：
+    ```bash
+    python -m unittest discover -s tests
+    ```
+
+## 项目结构
 ### `requirements.txt` 内容
 
 ```plaintext
@@ -44,3 +64,13 @@ SQLAlchemy==1.4.39
 Flask-Testing==1.0.0
 BeautifulSoup4==4.10.0
 pandas==1.3.5
+
+## 贡献指南
+1. Fork 项目仓库
+2. 创建你的特性分支 (`git checkout -b feature/AmazingFeature`)
+3. 提交你的更改 (`git commit -m 'Add some AmazingFeature'`)
+4. 推送到分支 (`git push origin feature/AmazingFeature`)
+5. 打开一个 Pull Request
+
+## 许可证
+本项目采用 MIT 许可证。详见 [LICENSE](LICENSE) 文件。
