@@ -4,8 +4,8 @@ from flask_marshmallow import Marshmallow
 from flask_apispec.extension import FlaskApiSpec
 from flask_restful import Api
 from .modules import db
-from .services import data_service as data_service
-from .services import ai_service as ai_service
+from .services import data_service
+from .services import ai_service
 from .services import recommendation_service as recommendation_service
 from .routes import auth_routes, patient_routes, medication_routes, ai_routes
 from .utils import config as cfg
