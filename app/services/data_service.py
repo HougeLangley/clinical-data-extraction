@@ -1,4 +1,4 @@
-from ..modules import Patient, Medication
+from ..modules import patient, medication
 
 def get_patient_by_id(patient_id):
     return Patient.query.get(patient_id)
