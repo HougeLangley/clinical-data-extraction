@@ -3,7 +3,7 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_marshmallow import Marshmallow
 from flask_apispec.extension import FlaskApiSpec
 from flask_restful import Api
-from .models import database as db
+from .models import db
 from .services import data_service as data_service
 from .services import ai_service as ai_service
 from .services import recommendation_service as recommendation_service
