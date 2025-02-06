@@ -1,2 +1,2 @@
 # app/modules/__init__.py
-from .database import db
+from .database import database as db
