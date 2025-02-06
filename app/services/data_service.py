@@ -1,4 +1,4 @@
-from ..models import Patient, Medication
+from app.models import Patient, Medication
 
 def get_patient_by_id(patient_id):
     return Patient.query.get(patient_id)
